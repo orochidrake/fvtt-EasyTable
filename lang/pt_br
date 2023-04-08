@@ -1,0 +1,72 @@
+{
+  "EASYTABLE": {
+    "notif": {
+      "title-required": "EasyTables requer um título",
+      "csv-required": "EasyTables exigem que o campo Valores seja preenchido",
+      "tabledata-required": "EasyTables exigem que o campo Dados da tabela seja preenchido",
+      "separator-required": "EasyTables exigem que o campo Separador contenha um único caractere",
+      "table-created": "EasyTable Criado:"
+    },
+    "ui": {
+      "button-csv-title": "Valores para to Tabela",
+      "button-tablepaste-title": "Colar Tabela",
+      "button-header": "EasyTable",
+      "dialog": {
+        "csv": {
+          "title": "EasyTable por Valores",
+          "table-title": "Titulo da Tabela",
+          "table-description": "Descrição da Tabela",
+          "csv-data": "Valores",
+          "csv-data-tooltip": "Cole seus valores aqui, separados pelo caractere Separador",
+          "separator": "Separador",
+          "separator-tooltip": "Alterar o caractere separador",
+          "defaultcollection": "Entidade Padrão",
+          "defaultcollection-tooltip": "Quaisquer entradas não marcadas serão verificadas neste tipo de entidade",
+          "button": {
+            "generate": "Gerar",
+            "cancel": "Cancelar"
+          }
+        },
+        "tablepaste": {
+          "title": "Modo Colar Tabela EasyTable",
+          "table-title": "Titulo da Tabela",
+          "table-description": "Descrição da Tabela",
+          "table-data": "Dados da tabela - NÃO inclua um cabeçalho de tabela aqui. Defina o título acima.",
+          "table-data-tooltip": "Cole os dados da sua tabela aqui",
+          "safemode": "Habilitar modo seguro?",
+          "safemode-tooltip": "Ative isso se a tabela colada não estiver sendo gerada conforme o esperado.",
+          "button": {
+            "generate": "Gerar",
+            "cancel": "Cancelar"
+          }
+        },
+        "export": {
+          "separator": {
+            "title": "Exportação EasyTable",
+            "prompt": "Exportar com separador",
+            "skip-weight": "Ignorar Pesos",
+            "skip-collection": "Ignorar Tipos de Entidade",
+            "button-ok": "OK"
+          },
+          "output": {
+            "title": "EasyTable Exportação Completa",
+            "separator-issue-head": "O separador escolhido foi encontrado em alguns resultados. Sua tabela pode não importar corretamente.",
+            "separator-issue-hint": "Tente usar outro separador que não apareça no texto, como uma barra vertical `|`",
+            "separator-issue-none": "Nenhum problema encontrado durante a exportação",
+            "button-copy": "Copiar",
+            "button-close": "Fechar"
+          }
+        }
+      },
+      "context": {
+        "export": "Export EasyTable"
+      }
+    },
+    "settings": {
+      "defaults": {
+        "title": "EasyTable",
+        "description": "An easy table. Optional {} denotes weight"
+      }
+    }
+  }
+}
